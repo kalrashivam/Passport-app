@@ -2,12 +2,12 @@ var express = require('express');
 var Router = express.Router();
 
 Router.get('/login',function(req,res){
-   res.send('Login');
+   res.render('login');
 
 });
 
 Router.get('/Register',function(req,res){
-	res.sned('Register');
+	res.render('register');
 });
 
 module.exports = Router;

@@ -49,7 +49,7 @@ app.use(expressvalidator({
 
 		}
 		return{
-			param:formPram,
+			param:formParam,
 			msg:msg,
 			value:value
 		};
